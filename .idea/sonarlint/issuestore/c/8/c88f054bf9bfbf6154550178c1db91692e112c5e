@@ -1,0 +1,13 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½µýä
+X
+java:S1128"=Remove this unused import 'br.com.letscode.Main.Application'.(ÀÚ÷Žøÿÿÿÿ
+D
+java:S6212"/Declare this local variable with "var" instead.(˜ž´9
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÐæë
+N	java:S106"9Replace this use of System.out or System.err by a logger.(õºÌï
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÛœ§øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ä¤¬¢ÿÿÿÿÿ
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¾Åî¯ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾Åî¯ýÿÿÿÿ

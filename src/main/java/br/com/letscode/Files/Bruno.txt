@@ -1,0 +1,7 @@
+Dados do usuario
+Nome do usuario: Bruno
+Idade: 22
+Email: brunoacpe@gmail.com
+Cpf: 12
+Contas do usuário: 
+Conta Simples
