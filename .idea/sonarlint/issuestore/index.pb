@@ -21,8 +21,6 @@ a
 1src/main/java/br/com/letscode/DAO/UsuarioDAO.java,c\d\cd1ce2884ebed9480c64327011803a21a68b5a6c
 l
 <src/main/java/br/com/letscode/Exceptions/CPFinexistente.java,6\1\6124d81f3c6e65dffef17567d641965d789b3acb
-x
-Hsrc/main/java/br/com/letscode/Exceptions/SaldoInsuficienteException.java,a\0\a072a30e5368d0a7616ce6ad529f7282e5938838
 q
 Asrc/main/java/br/com/letscode/Factory/ContaAnnotationLiteral.java,d\8\d8d2cd492806fc63c2a745fee886cf6d99263ac5
 j
@@ -35,3 +33,9 @@ X
 (src/main/java/br/com/letscode/Files/.txt,d\e\dee7bfcd6b309223043e1f69f8e81ef5fa3b5d99
 l
 <src/main/java/br/com/letscode/Controller/ContaPoupança.java,5\7\57cdac81dcbe547797b81b784fa519066bf470ef
+^
+.src/main/java/br/com/letscode/Model/Conta.java,0\4\0488a115ce074dc345b92d4d4ece5184ff60a3e8
+k
+;src/main/java/br/com/letscode/Controller/ContaEspecial.java,b\f\bf7552ea03f3a6b21b0d430d4024bcfc5ff75dca
+]
+-src/main/java/br/com/letscode/Files/Bruno.txt,f\c\fc0e80c67af9f7e021e5d02185b5b921b9fb2344

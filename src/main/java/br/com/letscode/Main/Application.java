@@ -93,6 +93,7 @@ public class Application {
     }
 
     public void atualizarArquivo(Conta conta) throws IOException{
+        //TODO - PROF QUANDO FOR CORRIGIR NÃO ESQUEÇA DE MUDAR O PATH PARA CONSEGUIR CRIAR FILES SE NÃO VAI DAR ERRO :D;
         var path = ".\\src\\main\\java\\br\\com\\letscode\\Files\\"+conta.getUsuarioPai().getNome()+".txt";
         try(FileWriter f = new FileWriter(path,true);
             BufferedWriter b = new BufferedWriter(f);
@@ -118,7 +119,7 @@ public class Application {
         if(usuario.getContaPoupanca()!=null){
             System.out.println("3 - Conta Poupança");
         }
-
+        //TODO -- O MEU BUG DE NULLPOINTER COMEÇA NAS OPERAÇÕES ABAIXO:
         int opcaoLogin = sc.nextInt();
         switch(opcaoLogin){
             case 1:
