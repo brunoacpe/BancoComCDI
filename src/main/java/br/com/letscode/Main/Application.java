@@ -35,9 +35,9 @@ public class Application {
     private UsuarioView usuarioView;
 
     private ContaService contaService;
-    private ContaEspecial contaEspecial;
-    private ContaSimples contaSimples;
-    private ContaPoupança contaPoupança;
+    private ContaEspecial contaEspecial = new ContaEspecial();
+    private ContaSimples contaSimples = new ContaSimples();
+    private ContaPoupança contaPoupança = new ContaPoupança();
     private List<Usuario> listUsuario;
     public ContaView getContaView() {
         return contaView;
@@ -119,7 +119,7 @@ public class Application {
         if(usuario.getContaPoupanca()!=null){
             System.out.println("3 - Conta Poupança");
         }
-        //TODO -- O MEU BUG DE NULLPOINTER COMEÇA NAS OPERAÇÕES ABAIXO:
+
         int opcaoLogin = sc.nextInt();
         switch(opcaoLogin){
             case 1:

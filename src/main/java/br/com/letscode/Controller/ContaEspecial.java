@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 public class ContaEspecial implements ContaService {
     @Override
     public Conta criarConta(Conta conta) throws IOException {
-        //TODO- O services não esta reconhecendo o tipo de conta no Model :(
+        //TODO- O services não esta reconhecendo o tipo de conta no Model :( por isso não preenchi o especial;
         conta.setTipoConta("Conta Especial");
         return conta;
     }
